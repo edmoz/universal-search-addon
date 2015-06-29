@@ -1,3 +1,4 @@
 content universalsearch chrome/content/
 content universalsearch-root chrome/
 content universalsearch-lib lib/
+content universalsearch-iframe iframe/dist
