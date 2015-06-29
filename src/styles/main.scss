@@ -1,3 +1,5 @@
+@import url(./vendor/normalize.css);
+
 $title-grey: #999999;
 $white: #ffffff;
 $border-grey: #f0f0f0;
@@ -74,7 +76,7 @@ body {
     .result-url  {
       color: $url-blue;
     }
-  
+
     &.selected,
     &:hover {
       background: $url-blue;
