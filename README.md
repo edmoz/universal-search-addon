@@ -1,6 +1,15 @@
 # universal-search-addon
 universal search desktop experiments in addon format
 
+TODO:
+  - we just added the iframe repo as a git subtree under the /iframe dir.
+    this means it looks like it's part of this repo, but it's not.
+    - use `make build` to pull down updates.
+    - be careful not to commit changes to the iframe repo into this repo.
+  - we also added `make release` to rev the version, push a tag to github,
+    rebuild the .xpi, and push the result to a special spot on people.m.o.
+  - TODO: insert all this stuff into the docs. Sorry, dear reader.
+
 Installation / how to hack on this?
 - set up https on your local machine
   - here's a gist with how I got this working (yosemite / built-in apache): https://gist.github.com/6a68/40b5eda14c82a25e253b
